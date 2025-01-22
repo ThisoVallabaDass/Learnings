@@ -14,7 +14,7 @@ int main() {
    
         int n;
         cin >> n;
-        cout << "Output for test case " << t + 1 << ":" << endl;
+        cout << "Output:" << endl;
         triangle(n);// Call triangle function
         cout << endl;
     
