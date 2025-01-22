@@ -11,20 +11,14 @@ void nForest(int n) {
 }
 
 int main() {
-    int numTestCases;
-    cout << "Enter the number of test cases: ";
-    cin >> numTestCases;
-
-    for (int t = 0; t < numTestCases; ++t) {
-        cout << "Enter the value of n for test case " << t + 1 << ": ";
         int n;
         cin >> n;
 
-        // Call nForest function for each test case
+        
         cout << "Output for test case " << t + 1 << ":" << endl;
-        nForest(n);
+        nForest(n);// Call nForest function 
         cout << endl;
-    }
+    
 
     return 0;
 }
