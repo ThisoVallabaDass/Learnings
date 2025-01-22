@@ -13,7 +13,7 @@ void nTriangle(int n) {
 int main() {
         int n;
         cin >> n;
-        cout << "Output for test case " << t + 1 << ":" << endl;
+        cout << "Output :" << endl;
         nTriangle(n); // Call nTriangle function 
         cout << endl;
     
