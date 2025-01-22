@@ -16,7 +16,7 @@ int main() {
         cout << "Output for test case " << t + 1 << ":" << endl;
         nTriangle(n); // Call nTriangle function 
         cout << endl;
-    }
+    
 
     return 0;
 }
