@@ -13,7 +13,7 @@ void seeding(int n) {
 int main() {
         int n;
         cin >> n;
-        cout << "Output for test case " << t + 1 << ":" << endl;
+        cout << "Output :" << endl;
         seeding(n); // Call seeding function
         cout << endl;
     
