@@ -15,7 +15,7 @@ int main() {
         cin >> n;
 
         
-        cout << "Output for test case " << t + 1 << ":" << endl;
+        cout << "Output :" << endl;
         nForest(n);// Call nForest function 
         cout << endl;
     
