@@ -2,8 +2,7 @@
 #include <vector>
 using namespace std;
 
-class Solution {
-public:
+
     bool isPalindrome(int x) {
         vector<int> val;
 
@@ -30,26 +29,19 @@ public:
         }
         return true;
     }
-};
+
 
 int main() {
-    Solution solution;
-
-    int numTestCases;
-    cout << "Enter the number of test cases: ";
-    cin >> numTestCases;
-
-    for (int t = 0; t < numTestCases; ++t) {
-        cout << "Enter number for test case " << t + 1 << ": ";
+    
         int input;
         cin >> input;
 
         // Check if the number is a palindrome
-        bool result = solution.isPalindrome(input);
+        bool result =isPalindrome(input);
 
         // Display the result
         cout << "Is the number " << input << " a palindrome? " << (result ? "Yes" : "No") << endl;
-    }
+    
 
     return 0;
 }
