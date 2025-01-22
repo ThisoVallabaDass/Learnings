@@ -12,6 +12,6 @@ void ftin(int i, int sum) {
 int main() {
     int sum;
     cin >> sum;  // Input the value of sum (the upper limit)
-    ftin(sum, 0);  // Call the function with sum as upper limit and 0 as initial sum
+    ftin(sum, 0);  // Call the function with parameters
     return 0;
 }
