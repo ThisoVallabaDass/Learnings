@@ -16,7 +16,7 @@ int main() {
         cout << "Output for test case " << t + 1 << ":" << endl;
         seeding(n); // Call seeding function
         cout << endl;
-    }
+    
 
     return 0;
 }
