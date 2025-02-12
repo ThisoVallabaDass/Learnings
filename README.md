@@ -1,3 +1,3 @@
 # Learnings
-looking for to learn
+looking forward to learn
 a repository containing my learnings
